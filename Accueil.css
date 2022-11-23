@@ -1,0 +1,615 @@
+a:link{
+    text-decoration:none;
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------  Balises pour la création de l'entête ---------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------*/
+#top-header{
+    background-color:#A76726;
+    height: 70px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#barre-recherche{
+    margin-left: 25%;
+    margin-top: -10px;
+    padding: 5px;
+    border: none;
+    width: 500px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.logo-id{
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+.logo-panier{
+    margin-top: -48px;
+    margin-left: -60px;
+}
+
+.haut-id{
+    margin-left: 700px;
+    margin-top: -40px;
+    color: white;
+}
+
+.haut-buy{
+    margin-left: 740px;
+    margin-top: -35px;
+    color: white;
+}
+
+surligne1{
+    margin-top:-50px;
+    margin-left: -30px;
+
+}
+
+surligner2{
+    margin-top: -50px;
+    margin-left: -30px;
+
+}
+
+surligner:hover{
+    border-bottom: solid 2px white;
+    border-radius: 3px;
+}
+
+input[type=text]{
+    width: 60%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus{
+    width: 90%;
+}
+
+#bouton-recherche{
+    width: 80px;
+    height: 35px;
+    margin-left: 546px;
+    margin-top: -35px;
+    color: white;
+    background-color:#F4661B;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 14px;
+    text-indent: -2px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------  Balises pour faire le menu et le carroussel --------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------*/
+.onglets{
+    background-color:#A76726;
+    height: 30px;
+    width: 100%;
+    line-height: -10px;
+    margin-top: -1180px;
+}
+
+ul{
+    float: right;
+    position: relative;
+    right: 5%;
+    margin-top: -20px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 30px;
+    line-height: 70px;
+}
+
+surligner:hover{
+    border-bottom: solid 2px white;
+    border-radius: 3px;
+}
+.submenu{
+    display: none;
+}
+
+li:hover .submenu{
+    display: inline-block;
+    background: #A76726;
+    position: absolute;
+    top: 100%;
+    box-shadow: 10px 5px 5px black;
+    width: 246px; 
+}
+
+.submenu li{
+    display: block;
+}
+
+.submenu li:hover{
+    /*background-color: #318CE7;*/
+}
+
+#section{
+    height: 700px;
+    width: 100%;
+    margin-top: 280px;
+    padding-bottom: -200px;    
+}
+
+#banderoleEvenement {
+    height: 620px;
+    overflow: hidden;
+    min-width: 100%;
+    margin-top: -250px;
+}
+
+#banderoleEvenement .imageBanderoleEvenement {
+    display: flex;
+    animation-duration: 15s;
+    animation-name: imageBanderoleEvenement;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageBanderoleEvenement {
+    10% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-2000px); 
+    }
+    50% {
+        transform: translateX(-2000px);
+    }
+    60% {
+        transform: translateX(-4000px);
+    }
+    90% {
+        transform: translateX(-4000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#section1{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------  Interfaces d'informations en base de page ----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-color: white;
+}
+
+.Selection_du_jour{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #F4661B;
+    margin-top: 350px;
+    text-indent: 50px;
+    text-rendering: optimizeLegibility;
+
+}
+
+.titre1, 
+.titre2, 
+.titre3,
+.titre4,
+.titre5, 
+.titre6{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    line-height: 32px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.emplacement-rectangle{
+    margin-left: 0px;
+    padding-right: -20px;
+    margin-top: -370px;
+
+}
+
+.rectangle-large{
+    background-color: #97DFC6;
+    height: 400px;
+    width: 1290px;
+    margin-left: 70px;
+    display: block;
+    margin-top: 8px;
+    position: relative;
+}
+
+.haut1{
+    margin-left: 100px;
+}
+
+.bas1{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.sport1{
+
+}
+
+.haut3{
+    margin-left: 0px;
+}
+
+.bas3{
+    margin-left: 0px;
+    margin-top: 70px;
+}
+
+.vetement1{
+    margin-left: -100px;
+}
+
+.vetement2{
+    margin-left: 0px;
+}
+
+.vetement3{
+    margin-left: -100px;
+}
+
+.vetment4{
+    margin-left: 10px;
+}
+
+.rectangle-court1{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: 380px;
+    position: relative;
+}
+
+.rectangle-court2{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: -524px;
+    position: relative;
+}
+
+.rectangle-court3{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: -524px;
+    position: relative;
+}
+
+.rentree1{
+    margin-left: -100px;
+}
+
+.rentree2{
+    margin-left: 0px;
+}
+
+.rentree3{
+    margin-left: -100px;
+}
+
+.rentree4{
+    margin-left: 10px;
+}
+
+.haut4{
+    margin-left: 100px;
+}
+
+.bas4{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.rectangle-court4{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: -12px;
+    position: relative;
+}
+
+.rectangle-court5{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: -524px;
+    position: relative;
+}
+
+.rectangle-court6{
+    background-color: #FDF1B8;
+    height: 500px;
+    width: 420px;
+    display: block;
+    margin-top: -524px;
+    position: relative;
+}
+
+/*.emplacement-rectangle{
+    width: 200px;
+}*/
+
+/*.rectangle-long{
+    background-color: #EFEFEF;
+    height: 200px;
+    width: 1270px;
+    margin-left: 70px;
+    display: block;
+    margin-top: 290px;
+    position: relative;
+}*/
+
+#section2{
+    background-color: rgb(71, 71, 71);
+    height: 650px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*#bouton{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color:#A76726;
+    border: none;
+}
+
+#bouton:hover{
+    background-color: #F4661B;
+    color: black;
+}*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.haut-id{
+    margin-left: 700px;
+    margin-top: -40px;
+    color: white;
+}
+
+.haut-buy{
+    margin-left: 880px;
+    margin-top: -35px;
+    color: white;
+}
+
+strong{
+    font-size: 25px;
+    float: right;
+    margin-left: 200px;
+    margin-top: -5px;
+}
+
+#bouton{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color:#F4661B;
+    border: none;
+}
+
+#bouton:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+.Google-map{
+    float: right;
+    margin-left: -50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.ligne-horizontale{
+    border-bottom: 0.075ex solid white;
+    width: 100%;
+    padding-bottom: 300px;
+}
+
+.logo-bis{
+    margin-top: 10px;
+    margin-left: 580px;
+}
+
+.reseau{
+    font-size: 18px;
+    margin-left: 950px;
+    margin-top: 10px;
+    color: white;
+}
+
+.bas-fb{
+    margin-left: 940px;
+    margin-top: 10px;
+}
+
+.bas-insta{
+    margin-left: 1010px;
+    margin-top: -72px;
+}
+
+.newsletter{
+    font-size: 12px;
+    margin-top: -140px;
+    color: white;
+    letter-spacing: 0.8px;
+    text-indent: 60px;
+}
+
+.valider{
+    color: white;
+    border: 0.6px solid white;
+    border-top: 0.8px solid white; 
+    height: 35px;
+    width: 285px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(71, 71, 71);;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-left: 310px;
+    margin-top: -5px;
+}
+
+.paragraphe{
+    margin-left: 310px;
+    margin-top: -50px;
+    line-height: 9px;
+    color: white;
+}
+
+.newsletter input[type=text],
+.newsletter input[type=nom],
+.newletter input[type=prenom],
+.newletter input[type=email]{
+    margin-bottom: 7px;
+    padding-left: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#nom{
+    background-color: rgb(71, 71, 71);;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+#prenom{
+    background-color: rgb(71, 71, 71);;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+#email{
+    background-color: rgb(71, 71, 71);;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+h3{
+    margin-top: -120px;
+    margin-left: 65px;
+    color: white;
+}
+
+.gauche1{
+    float: left;
+    margin-left: 23%;
+    text-align: left;
+    margin-top: -560px;
+    color: white;
+}
+
+
+.milieu1{
+    display: inline-block;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: -560px;
+    color: white;
+}
+
+.droite1{
+    float: right;
+    margin-right: 15%;
+    text-align: left;
+    margin-top: -560px;
+    color: white;
+}
+
+.suivre{
+    height: 60px;
+    background-color: rgb(71, 71, 71);;
+    word-spacing: 20px;
+    text-align: center;
+    line-height: 3.5em;
+    margin-left: 840px;
+    margin-top: 20px;
+}
+
+.bloc{
+    border-top: 2px solid #DCDCDC;
+    border-bottom: 2px solid #DCDCDC;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(71, 71, 71);;
+    word-spacing: 40px;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.ligne-verticale1{
+    border-left: 2px solid #DCDCDC;
+    display: inline-block;
+    height: 14px;
+    word-spacing: 40px;
+    line-height: 4em;
+}
+
+body{
+    background-color: white;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------  Balises de footer ----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------*/
+#footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+small{
+    margin-top: 50px;
+    letter-spacing: 0.8px;
+    vertical-align: middle;
+    line-height: 6em;
+}
+
